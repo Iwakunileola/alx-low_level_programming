@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main(void)
+
+/**
+ * main -entry point
+ *
+ * Return: always 0 (sucess)
+ */
 {
-	/*main -entry point
-	 *
-	 * return: always 0 (sucess)
-	 */
-	return(0);
+	return (0);
 }
