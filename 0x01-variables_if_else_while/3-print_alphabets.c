@@ -6,13 +6,21 @@
  */
 int main(void)
 {
-	char ch, cp;
+	char ch;
 
-	for (ch = 'a', cp = 'A'; ch <= 'z'; ch++);
+	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
 		putchar(ch);
-		putchar('\n');
 	}
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
+
+	{
+		putchar(ch);
+	}
+
+	putchar('\n');
+
 	return (0);
 }
