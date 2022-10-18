@@ -7,12 +7,11 @@
 int main(void)
 {
 	int y;
-	y = 0;
 
 	for (y = 0; y <= '9'; y++)
 
 	{
-		printf("%i", y);:w
+		printf("%i", y);
 	}
 
 	putchar('\n');
