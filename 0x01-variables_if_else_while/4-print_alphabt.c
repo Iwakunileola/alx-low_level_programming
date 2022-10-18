@@ -8,13 +8,7 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; ch <= 'n' && ch != 'e'; ch++)
-
-	{
-		putchar(ch);
-	}
-
-	for (ch = 'o'; ch <= 'z' && ch != 'q'; ch++)
+	for (ch = 'a'; ch <= 'n' && ch != 'e', 'q'; ch++)
 
 	{
 		putchar(ch);
