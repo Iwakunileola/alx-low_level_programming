@@ -12,10 +12,6 @@ int main(void)
 
 	{
 		putchar(ch % 10 + '0');
-		putchar(',');
-		putchar(' ');
-
-
 	}
 
 		putchar('\n');

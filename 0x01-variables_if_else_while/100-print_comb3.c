@@ -6,14 +6,22 @@
  */
 int main(void)
 {
-	int ch;
+	int ch, y;
 
-	for (ch = 'd'; ch <= 'm'; ch++)
+	ch = 'd';
+	y = 'd';
+
+	while (y <= 'm')
 
 	{
+		if (ch <= 'm' && ch == y)
+		{
+			continue;
+		putchar(y % 10 + '0');
 		putchar(ch % 10 + '0');
 		putchar(',');
 		putchar(' ');
+		}
 
 
 	}
