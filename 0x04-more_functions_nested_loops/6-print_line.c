@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- *ptiny_line - prints straight lines
+ *print_line - prints straight lines
  * @n: numer of lines
  * Return: void
  */
+
 void print_line(int n)
 {
 	int y;
@@ -20,4 +21,5 @@ void print_line(int n)
 			_putchar('_');
 		}
 	}
+	_putchar('\n');
 }
