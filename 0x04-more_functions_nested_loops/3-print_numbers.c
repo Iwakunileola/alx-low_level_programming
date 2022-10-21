@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers frmo 0 -9
+ * print_numbers - prints numbers frmo 0 to 9
  * Return: void
  */
 void print_numbers(void)
 {
-	int y;
+	int x;
 
-	for (y = 0; y <= 9; y++)
+	for (x = 0; x <= 9; x++)
 	{
-		_putchar(y);
+		_putchar(x);
 	}
 	_putchar('\n');
 }
