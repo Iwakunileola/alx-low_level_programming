@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_sqaure - prints square
- *@size: integer used to ptint
- *Return: void
+ * print_sqaure - prints square
+ * @size: prints number of #
+ * Return: void
  */
 void print_square(int size)
 {
