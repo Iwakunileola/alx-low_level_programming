@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	int y;
 
-	for (y = 0; y <= n; y++)
+	for (y = 1; y <= n; y++)
 	{
 		if (n == 0 || n < 0)
 		{
