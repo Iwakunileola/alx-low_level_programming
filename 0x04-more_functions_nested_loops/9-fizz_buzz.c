@@ -27,5 +27,6 @@ int main(void)
 			printf("%i ", y);
 		}
 	}
+	putchar('\n');
 	return (0);
 }

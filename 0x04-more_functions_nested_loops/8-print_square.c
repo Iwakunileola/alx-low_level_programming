@@ -2,7 +2,7 @@
 
 /**
  * print_sqaure - prints square
- * @size: prints number of #
+ * @size: prints numbers of #
  * Return: void
  */
 void print_square(int size)
