@@ -23,7 +23,7 @@ void print_diagonal(int n)
 			{
 				_putchar('\\');
 			}
-			else if (p <= n)
+			else
 			{
 				_putchar(' ');
 			}
