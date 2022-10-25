@@ -9,16 +9,11 @@
 int _strlen(char *s)
 {
 	int i;
-	int size;
-	char str[size] = s
 
-	for (i = 0; i < size; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (i == (size--))
-		{
-			return (i);
-		}
+		i = i;
 	}
-
+	return (i);
 }
 
