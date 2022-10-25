@@ -1,23 +1,18 @@
 #include "main.h"
 
 /**
- * _strlen - Prints a string
- * @s: Char pointer parameter
- * Return: void
+ *_puts - Prints strings to out put
+ *@str: Char pointer parameter
+ *Return: void
  */
-
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int size;
 	int i;
-	char str[size] = {*s};
 
-	for (i = 0; i < size; 1++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i == (size - 1))
-		{
-			return (i);
-		}
+		_putchar(str[i]);
 	}
-	
+	_putchar('\n');
 }
+
