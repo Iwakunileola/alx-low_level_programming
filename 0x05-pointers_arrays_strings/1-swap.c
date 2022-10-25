@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
- * void swap_int - update value it points to 98
+ * void swap_int - Swaps integer *a and b*
  * @a: Integer pointer parameter
  * @b: Integer pointer parameter
  * Return: void
  */
 
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b);
 {
-	*a = 42;
-	*b = 98;
+	int h;
+
+	h = *a;
+	*a = *b;
+	*b = h;
 }
