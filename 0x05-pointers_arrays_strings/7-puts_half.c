@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{
 		n = i;
 	}
-	for (y = 0; y <= i; y++)
+	for (y = 1; y <= i; y++)
 	{
 		j = n / 2;
 		if ((j % 2) != 0)
@@ -25,10 +25,10 @@ void puts_half(char *str)
 
 			}
 		}
-		else if (y >= j && j <= n)
-			{
-				_putchar(str[y]);
-			}
+		else if ((y >= j) && (j <= n))
+		{
+			_putchar(str[y]);
+		}
 	}
 	_putchar('\n');
 }
