@@ -19,16 +19,16 @@ void puts_half(char *str)
 		if ((j % 2) != 0)
 		{
 			t = (n - 1) / 2;
-			if (y > t && y <= n)
+			if (y >= t && y <= n)
 			{
 				_putchar(str[y]);
 
 			}
 		}
-		else if (y > j && j <= n)
-		{
-			_putchar(str[y]);
-		}
+		else if (y >= j && j <= n)
+			{
+				_putchar(str[y]);
+			}
 	}
 	_putchar('\n');
 }
