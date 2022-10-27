@@ -1,31 +1,22 @@
 #include "main.h"
 
 /**
- **_strcat - Concatenates two strings
- *@dest: Recieved parameter destination
- *@src: Recieved source file
- *Return: char pointer
+ *reverse_array - reverses strings
+ *@a: parameter
+ *@n: number of elements of array to be reversed
+ *Return: void
  */
 
-char *_strcat(char *dest, char *src)
+void reverse_array(int *a, int n)
 {
 	int i;
-	int p;
 	int y;
+	int p;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (i = 0, p = (n - 1); i < p; p--, i++)
 	{
-		i = i;
+		y = a[i];
+		a[i] = a[p];
+		a[p] = y;
 	}
-	for (y = 0; src[y] != '\0'; y++)
-	{
-		y = y;
-	}
-	i = i;
-	y = y;
-	for (p = 0; p <= y; p++)
-	{
-		dest[i + p] = src[p];
-	}
-	return (dest);
 }
