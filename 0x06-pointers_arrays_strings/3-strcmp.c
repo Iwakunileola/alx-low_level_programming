@@ -1,11 +1,12 @@
 #include "main.h"
 
-/*
-*_strcmp - Copies strings
-*@s1: Parameter
-*@s2: Parameter
-*Return: Integer
-*/
+/**
+ * *_strcmp - Compares strings
+ * @s1: Destination parameter
+ * @s2: Source parameter
+ * Return: int
+ */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i;
