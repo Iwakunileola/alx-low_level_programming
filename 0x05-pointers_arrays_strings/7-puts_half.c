@@ -6,30 +6,22 @@
  *Return: void
  */
 void puts_half(char *str)
-{
-	int i, n, t, y, j;
+{int i, n, t;
 
 	for (i = 0; (str[i] != '\0'); i++)
 	{
-		n = i;
+		n = i / 2;
 	}
-	for (y = 0; y <= i; y++)
+	for (t = n + 1; t < i; t++)
 	{
-		j = n / 2;
-		if ((j % 2) != 0)
+		if (i % 2 == 0)
 		{
-			t = (n - 1) / 2;
-			if (y >= t && y <= n)
-			{
-				_putchar(str[y]);
-
-			}
+			_putchar(str[t]);
 		}
-		else if ((y >= j) && (j <= n))
+		else
 		{
-			_putchar(str[y]);
+			_putchar(str[t + 1]);
 		}
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
-
