@@ -7,14 +7,17 @@
 *@n: Integer parameter
 *Return: void
 */
+
 void print_array(int *a, int n)
 {
 	int i;
-	int t = n - 1;
-
-	for (i = 0; i <= t; i++)
+	for (i = 0; i < n /*&& a[i] <= '\0'*/; i++)
 	{
-		printf("%d, ", a[i]);
+		printf("%i", a[i]);
+		if (i == (n - 1))
+			break;
+		printf(",");
+		printf(" ");
 	}
+	printf("\n");
 }
-
