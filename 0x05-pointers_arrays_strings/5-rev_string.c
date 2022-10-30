@@ -20,7 +20,5 @@ void rev_string(char *s)
 		s[r] = s[n];
 		s[n] = ch;
 	}
-	for (; s[i] == '\0'; i++)
-		s[i] = '\0';
 }
 
