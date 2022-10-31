@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * *_memset - copies first n bytes
- * @s: Detination string
- * @b: Constant byte copied
+ * *_memcpy - Copies first n bytes from src
+ * @dest: Detination string
+ * @src: Source string
  * @n: Numbers of bytes copied
+ * Return: char
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; i < n: i++)
+	for (i = 0; i < n; i++)
 	{
-		s = b;
+		dest[i] = src[i];
 	}
-	return (s);
+	return (dest);
 }
