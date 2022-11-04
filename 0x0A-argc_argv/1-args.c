@@ -2,7 +2,7 @@
 
 /**
  * main - Entry
- * Program that prints all arguments it receives
+ * Program that prints numbers of arguments entered
  * @argc: count parametrs in argv
  * @argv: pointers to string
  * Return: Always 0.
