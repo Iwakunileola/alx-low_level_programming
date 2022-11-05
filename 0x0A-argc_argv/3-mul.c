@@ -11,12 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int first = atoi(argv[1]);
-	int last = atoi(argv[2]);
-
 	if (argc == 3)
 	{
-		printf("%d\n", last * first);
+		printf("%d\n",  atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
 	else
