@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * *create_array - Creates an array of chars, and initializes it with a specific char
+ * *create_array - Creates an array of char
  * @size: array size
  * @c: character to be print
+ * Return: char
  */
 
 char *create_array(unsigned int size, char c)
@@ -12,7 +13,7 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *ptr;
 
-	ptr = malloc((size + 1) * (sizeof(char)));
+	ptr = malloc((size) * (sizeof(char)));
 	for (i = 0; i < size; i++)
 	{
 		if (size == 0)
