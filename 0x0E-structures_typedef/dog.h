@@ -1,9 +1,11 @@
-#include <stdio.h>
 #ifndef DOG_H_INCLUDED
 #define DOG_H_INCLUDED
 
 /**
- * struct dog: self defined type struct dog
+ * struct dog - Self defined type struct dog
+ * @name: First parameter
+ * @age: Second parameter
+ * @owner: Third parameter
  */
 
 struct dog
